@@ -11,15 +11,6 @@ export class BasicCommand implements CommandRunner {
     passedParam: string[],
     options?: BasicCommandOptions,
   ): Promise<void> {
-    // if (options?.boolean !== undefined && options?.boolean !== null) {
-    //   this.runWithBoolean(passedParam, options.boolean);
-    // } else if (options?.number) {
-    //   this.runWithNumber(passedParam, options.number);
-    // } else if (options?.string) {
-    //   this.runWithString(passedParam, options.string);
-    // } else {
-    //   this.runWithNone(passedParam);
-    // }
     console.log(options);
     console.log(passedParam);
   }
